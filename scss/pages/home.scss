@@ -1,0 +1,46 @@
+.homePage{
+    text-align: right;
+    .logo{
+        font-size: 30px;
+        color: color(500);
+        font-family: font(bd);
+    }
+    .advBox{
+        margin-bottom: 25px;
+        p{
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    }
+    .newsBox{
+        h1{
+            font-family: font(bd);
+        }
+        p{
+            font-size: 22px;
+        }
+    }
+    .newsSec{
+        margin-bottom: 40px;
+        &_right{
+            padding-left: 40px;
+            iframe{
+                margin: 20px 0px;
+            }
+        }
+    }
+    .contactForm{
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .newsSec2{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        .container{
+            border-bottom: 1px solid #ccc;
+        }
+       
+    }
+}

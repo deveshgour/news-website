@@ -1,0 +1,52 @@
+.contactPage{
+    .card-body{
+        padding-bottom: 80px;
+        padding: 40px 100px 80px;
+    }
+    .contactBox{
+        &:not(:last-child){
+            margin-bottom: 40px;
+        }
+        h2{
+            font-size: 20px;
+            font-family: font(sb);
+        }
+        p{
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        &_left{
+            padding-right: 15px;
+        }
+        &_card{
+            border: 1px solid #D1E9FF;background-color: #F0F9FF;padding: 15px 25px;border-radius: 20px;
+            h3{font-size: 16px;line-height: 24px;  font-family: 'Inter-Medium';margin-bottom: 8px; word-break: break-word;}
+            p{font-size: 14px;line-height: 20px; word-break: break-all;}
+            &_txt{
+                flex: 1;
+                padding-right: 10px;
+            }
+            &_link{
+                img{width: 20px;height: 20px;}
+            }
+        }
+    }
+    @include media-breakpoint-down(lg){
+        .card-body{
+            padding-bottom: 30px;
+            padding: 20px 15px 15px;
+        }
+        .contactBox{
+            h2{
+                font-size: 18px;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .contactBox{
+            &_card{
+                padding: 15px;
+            }
+        }
+    }
+}

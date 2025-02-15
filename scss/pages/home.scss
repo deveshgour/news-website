@@ -13,11 +13,25 @@
             margin-top: 10px;
         }
     }
+    .socialLink{
+        margin-top: 15px;
+        a{
+            color: #333;
+            font-size: 16px;
+        }
+        @include media-breakpoint-down(md){
+            justify-content: end !important;
+        }
+    }
+    .views{
+        font-size: 16px;
+        color: #646464;
+    }
     .newsBox{
         h1{
             font-family: font(bd);
         }
-        p{
+        h2{
             font-size: 22px;
         }
     }
@@ -27,6 +41,9 @@
             padding-left: 40px;
             iframe{
                 margin: 20px 0px;
+            }
+            @include media-breakpoint-down(sm){
+                padding-left:15px;
             }
         }
     }

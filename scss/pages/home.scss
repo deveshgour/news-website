@@ -18,6 +18,7 @@
         a{
             color: #333;
             font-size: 16px;
+            pointer-events: none;
         }
         @include media-breakpoint-down(md){
             justify-content: end !important;

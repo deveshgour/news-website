@@ -5,16 +5,7 @@ function toggleSideMenu(){
 $('.sideMenubackdrop').click(function () {
     $('body').removeClass('showMenu');
 })
-// Password Fileds
-$(".toggle-password").click(function() {
-    $(this).toggleClass("icon-eye icon-eye-off");
-    var input = $($(this).attr("toggle"));
-    if (input.attr("type") == "password") {
-    input.attr("type", "text");
-    } else {
-    input.attr("type", "password");
-    }
-})
+
 
 // ----floatin input label in input and select
 $('.form-group').find('.floating-control').each(function (index, ele) {
@@ -43,10 +34,7 @@ if($(this).is('select')){
 }
 })
 
-  
-function toggleNotification() {
-    $('body').toggleClass('showNotification')
-}
+
 
 $('.sideMenubackdrop').click(function () {
     $('body').removeClass('showMenu');
@@ -55,9 +43,6 @@ $('.sideMenubackdrop').click(function () {
     $('body').removeClass('showNotification');
 })
 
-$( function() {
-    $( "#datepicker" ).datepicker();
-  } );
 
 
 

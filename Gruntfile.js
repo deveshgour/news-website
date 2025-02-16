@@ -2,7 +2,7 @@
     'use strict';
     module.exports = function (grunt) {
         var vendorFiles, cssFiles;
-        const sass = require('sass');
+        const sass = require('node-sass');
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
 
